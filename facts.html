@@ -23,6 +23,8 @@
 				margin-top: 80px;
 				text-decoration: underline;
 				font-weight: normal;
+				line-height: 100%;
+
 			}
 
 			p {
@@ -58,8 +60,12 @@
 				color: #292928;
 				margin-left: 80px;
 				word-spacing: 70px;
+				
 
 			}
+			a:-webkit-any-link.active-link {
+                color: #ED9C00;
+                -webkit-text-stroke: 1px #9F8600;
 			
 		</style>
 	</head>
@@ -70,7 +76,7 @@
 		<div class="menu">
 			<a href="story.html">STORY</a>
 			<a href="cast.html">CAST</a>
-			<a href="facts.html">FACTS</a>
+			<a class="active-link" href="facts.html">FACTS</a>
 		</div>
 
 		<h1>The Lion King wasn’t always the Lion King</h1>
@@ -78,5 +84,6 @@
 		<h1>The Lion King is the highest-grossing hand-drawn animated feature of all time</h1>
 		<p>The Lion King is the highest-grossing hand-drawn animated feature of all time with a total box office of over $986<br> million; it is also the eighth highest-grossing animated feature in general, the 42nd highest-grossing film of all time,<br> and the best-selling videotape of all time.</p>
 		<h1>The Lion King is celebrating its 25th birthday</h1>
+
 	</body>
 </html>
