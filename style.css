@@ -7,3 +7,6 @@ a:-webkit-any-link {
 	cursor: pointer;
 	text-decoration: none;
 }
+body {
+	font-family: 'Junge';
+}
