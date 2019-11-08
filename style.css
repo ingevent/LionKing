@@ -1,21 +1,26 @@
 h1 {
-	text-align: center;
-	margin-top: 100px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	
+    text-align: center;
+    margin-top: 0;
+    padding-top: 196px;
+    font-family: Junge, sans-serif;
 }
-
+/*.header-background{
+    background: url(Pictures/banner_3.jpg);
+    margin: 0;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-color: #FFFFFFFF;
+}*/
 .menu {
-	background-color: #4d4d4d;
-	font-family: #4d4d4d;
+	font-family: Junge;
 	overflow: hidden;
 }
 .menu a {
-	float: left;
-	font-size: 16px;
-	color: #e2b100;
+	float: center;
+	font-size: 35px;
+	color: #292928;
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 }
 .menu a:hover {
 	background-color: #80b0bc;
@@ -23,11 +28,11 @@ h1 {
 body, html {
 		margin: 0;
 		height: 100%;
-		color: #e2b100;
+		color: #000000;
 
 }
 .image {
-	background-image: url(https://c1.staticflickr.com/1/360/19674081328_7607524327_b.jpg);
+	background-image: url(https://imgur.com/sjSIwKh);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -72,9 +77,10 @@ p {
 }
 
 a:-webkit-any-link {
-    color: #e2b100;
+    color: #000000;
     cursor: pointer;
     text-decoration: none;
+    font-size: x-large;
 }
 
 .kontakt {
@@ -85,12 +91,13 @@ a:-webkit-any-link {
 	width: 60%
 	padding: 20px;
 	float: left;
+	width: 50%
 }
 
 .veerg img {
-	opacity: 0.8;
+	opacity: 1;
 }
 
 .veerg img:hover {
-	opacity: 1;
+	opacity: 0.5;
 }
