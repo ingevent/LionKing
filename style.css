@@ -2,3 +2,8 @@ a:-webkit-any-link.active-link {
 	color: #ED9C00;
 	-webkit-text-stroke: 1px #9F8600;
 }
+a:-webkit-any-link {
+	color: #292928;
+	cursor: pointer;
+	text-decoration: none;
+}
